@@ -12,6 +12,15 @@ les poubelles vertes et les poubelles rouges
 
 ## Pourquoi l'écologie ? 
 
+Une transformation radicale du rapport activité
+humaine/environnement
+
+A pour but de protéger les éco-systèmes, la
+biodiversité et l’environnement plus
+généralement
+
+Essentielle face à la menace grandissante du
+réchauffement climatique
 
 
 
