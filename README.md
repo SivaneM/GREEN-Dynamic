@@ -10,4 +10,17 @@
 
 les poubelles vertes et les poubelles rouges 
 
-##
+## Pourquoi l'écologie ? 
+
+
+
+
+## Modèle simple 
+
+
+
+## Modèle complexe 
+
+
+
+## Interprétation et optimisation
