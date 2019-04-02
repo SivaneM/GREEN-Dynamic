@@ -26,10 +26,14 @@ réchauffement climatique
 
 ## Modèle simple 
 
+Le principe est d'utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise poubelle, et ceux pour tous sortes de déchets.
 
 
 ## Modèle complexe 
 
+On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
 
 
 ## Interprétation et optimisation
+
+On remarqe ainsi que pour les générations futurs il faut faire attention. 
