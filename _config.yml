@@ -2,13 +2,13 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
-email: your-email@domain.com
+email: your-email@domain.comhttp://jekyllthemes.org/themes/instagram-portfolio-theme/
 brand: Your Name
 headline: Inventor, Engineer and Futurist
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/" # the base hostname & protocol for your site
+url: "http://jekyllthemes.org/themes/instagram-portfolio-theme/" # the base hostname & protocol for your site
 copyright: 2016 Whatever Company, Inc. All Rights Reserved.
 
 # Build settings
