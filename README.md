@@ -24,9 +24,16 @@ réchauffement climatique
 
 
 
-## Modèle simple 
+## Modèle simple
 
-Le principe est d'utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise poubelle, et ceux pour tous sortes de déchets.
+Comme expliqué précédemment, le principe est de montrer à travers un programme l’évolution des déchets dans les poubelles. 
+Pour ce faire, nous allons d’abord présenter un modèle simple de la situation. 
+Ce modèle consiste à utiliser uniquement deux sortes de poubelles ; une poubelle et une mauvaise, pour plusieurs types de déchets. 
+L’algorithme utilise un dictionnaire de tous les déchets avec leur pourcentages dans la poubelle. 
+Nous tirons aléatoirement un déchet et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle. 
+On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
+Une fois la bonne poubelle remplie, celle-ci est vidée et le mécanisme continue. 
+
 
 
 ## Modèle complexe 
