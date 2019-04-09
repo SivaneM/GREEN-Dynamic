@@ -1,9 +1,9 @@
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
-# SOMMAIRE
+# _**SOMMAIRE**_
 
-[Pourquoi l'écologie ?](#siv)
+* [Pourquoi l'écologie ?](#siv)
 
 
 <a name="siv"></a>
