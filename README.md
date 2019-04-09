@@ -25,8 +25,8 @@ Mais alors, quel lien avec la dynamique ?  En nous basant ainsi sur le modèle d
 <a name="avi"></a>
 ## _**Modèle simple**_
 
->Pour évaluer la pertinence de notre sujet, nous avons décidé d'établir dans un premier temps un modèle simple qui utiliserait une loi de répartition telle que 90% des déchets vont dans la poubelle qui leur sont destinés et 10% dans la mauvaise.
->Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
+Pour évaluer la pertinence de notre sujet, nous avons décidé d'établir dans un premier temps un modèle simple qui utilise une loi de répartition telle que 90% des déchets vont dans la poubelle qui leur sont destinés et 10% dans la mauvaise.
+Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
 
 <p> Premièrement, l’algorithme utilise un dictionnaire de probabilités de la présence des déchets dans la poubelle, probabilités que l'on a distribué équitablement entre les deux déchets A et B : </p>
   <pre><code>p = {"A" : 0.5,
@@ -34,8 +34,29 @@ Mais alors, quel lien avec la dynamique ?  En nous basant ainsi sur le modèle d
 </code></pre>
 
 
+<p> Nous tirons aléatoirement un déchet par la fonction *flux(p)* et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction *poubelle-choisie(p,q)* suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
+  <pre><code>q = {"BonnePoubelle" : 0.9,
+    "MauvaisePoubelle" : 0.1,
+    ""}
 
-Nous tirons aléatoirement un déchet et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle. 
+def poubelle_choisie(p,q):
+    f = flux(p)
+    n = (randrange(0,100)x1.0)/100
+    if f == "A":
+        for d in q:
+            if n >= q[d]:
+                return "BonnePoubelle"
+            else: 
+                return "MauvaisePoubelle"
+    else:
+        for d in q:
+            if n >= q[d]:
+                return "BonnePoubelle"
+            else: 
+                return "MauvaisePoubelle"
+                
+</code></pre>
+
 On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
 Une fois la bonne poubelle remplie, celle-ci est vidée et le mécanisme continue. 
 
@@ -66,7 +87,8 @@ def nb_dans_poubelle(p,q):
 
 On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
 
-## lol 
+
+
 <a name="lol"></a>
 ## Interprétation et optimisation
 
