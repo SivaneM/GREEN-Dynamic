@@ -1,7 +1,7 @@
-
-<img aligne ="right" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
-
-
+<p align ="center">
+  <img width = "400" height = "400" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg">
+</p>
+  
 # **SOMMAIRE**
 
 * [Pourquoi l'écologie ?](#siv)
