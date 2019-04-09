@@ -34,7 +34,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
 </code></pre>
 
 
-<p> Nous tirons aléatoirement un déchet par la fonction *flux(p)* et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction *poubelle-choisie(p,q)* suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
+<p> Nous tirons aléatoirement un déchet par la fonction `flux(p)` et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction `poubelle-choisie(p,q) suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
   <pre><code>q = {"BonnePoubelle" : 0.9,
     "MauvaisePoubelle" : 0.1,
     ""}
