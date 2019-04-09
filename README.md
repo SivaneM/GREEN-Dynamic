@@ -3,7 +3,8 @@
 
 <p> Ceci est un paragraphe normal : 
   <pre><code>Ceci est un bloc de code.
-  </code></pre>
+c'est la fin 
+</code></pre>
   
   
 c'est la fin 
