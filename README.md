@@ -1,10 +1,26 @@
-### **GREEN DYNAMIC**
+# **GREEN DYNAMIC**
 
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
 
  
+voici notre code en python :
+    def nb_dans_poubelle(p,q):
+        p1 = 0
+        p2 = 0
+        n = 100
+        for d in range(n+1):
+            if poubelle_choisie(p,q)== "BonnePoubelle" :
+               p1 = p1 + 1
+            else :
+               p2 = p2 + 1
+        return (p1, p2)
+
+
+
+
+
 
 
 
