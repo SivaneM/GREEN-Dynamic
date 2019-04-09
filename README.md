@@ -1,5 +1,5 @@
 
-<img src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
+<img aligne ="left" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
 
 # **SOMMAIRE**
