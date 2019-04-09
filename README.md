@@ -1,14 +1,14 @@
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
-# _**SOMMAIRE**_
+# **SOMMAIRE**
 
 * [Pourquoi l'écologie ?](#siv)
 * [Modèle simple](#avi)
 
 
 <a name="siv"></a>
-## **Pourquoi l'écologie ?** 
+## _**Pourquoi l'écologie ?**_
 
 
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
@@ -23,7 +23,7 @@ Mais alors, quel lien avec la dynamique ?  En nous basant ainsi sur le modèle d
 
 
 <a name="avi"></a>
-## Modèle simple
+## _**Modèle simple**_
 
 >Pour évaluer la pertinence de notre sujet, nous avons décidé d'établir dans un premier temps un modèle simple qui utiliserait une loi de répartition telle que 90% des déchets vont dans la poubelle qui leur sont destinés et 10% dans la mauvaise.
 >Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
