@@ -1,6 +1,11 @@
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
+<p> Ceci est un paragraphe normal : 
+  <pre><code>Ceci est un bloc de code.
+  </code></pre>
+
+
 
 les poubelles vertes et les poubelles rouges 
 
