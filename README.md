@@ -4,10 +4,10 @@
   
 # **SOMMAIRE**
 
-* [Membre du groupe](#ariel)
-* [Pourquoi l'écologie ?](#siv)
-* [Modèle simple](#avi)
-* [Modèle complexe](#lilo)
+> [Membre du groupe](#ariel)
+> [Pourquoi l'écologie ?](#siv)
+> [Modèle simple](#avi)
+> [Modèle complexe](#lilo)
 
 <a name="ariel"></a>
 ## _**Membre du groupe**_
