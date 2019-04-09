@@ -1,5 +1,5 @@
 
-<img aligne ="left" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
+<img aligne ="right" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
 
 # **SOMMAIRE**
@@ -14,7 +14,7 @@
 
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
 Alors, on vous rassure directement , pas besoin de planter des arbres chaque dimanche pour adhérer à ce mouvement qui encourage la protection de nos écosystèmes, ou plus généralement de notre environnement.
-
+left
 Nous, on vous propose quelque chose de beaucoup plus simple et qui changera vraiment la donne :
 **bien choisir vos poubelles** ! 
 En effet, notre projet se concentre sur l'importance du tri sélectif dans la défense de notre planète face à la menace grandissante du réchauffement climatique. Et on peut y gagner beaucoup ! Grâce au tri quotidien des déchets , non seulement on favorise leur recyclage mais en plus, on préserve les ressources naturelles (qui sont de plus en plus *faibles*) et on évite le gaspillage. Alors, toujours pas convaincu ?
