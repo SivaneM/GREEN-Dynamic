@@ -60,28 +60,7 @@ def poubelle_choisie(p,q):
 On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
 Une fois la bonne poubelle remplie, celle-ci est vidée et le mécanisme continue. 
 
-<p>
-
-<p> Ceci est un paragraphe normal : </p>
-  <pre><code>Ceci est un bloc de code.
-c'est la fin 
-</code></pre>
-
-def nb_dans_poubelle(p,q):
-    p1 = 0
-    p2 = 0
-    n = 100
-    for d in range(n+1):
-        if poubelle_choisie(p,q)== "BonnePoubelle" :
-            p1 = p1 + 1
-        else :
-            p2 = p2 + 1
-    return (p1, p2)
-
-  
-
-
-
+ 
 <a name="lilo"></a>
 ## Modèle complexe 
 
