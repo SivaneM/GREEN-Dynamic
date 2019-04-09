@@ -1,7 +1,7 @@
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 
-<p> Ceci est un paragraphe normal : 
+<p> Ceci est un paragraphe normal : </p>
   <pre><code>Ceci est un bloc de code.
 c'est la fin 
 </code></pre>
