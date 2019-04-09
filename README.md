@@ -15,15 +15,10 @@ les poubelles vertes et les poubelles rouges
 
 ## Pourquoi l'écologie ? 
 
-Une transformation radicale du rapport activité
-humaine/environnement
-
-A pour but de protéger les éco-systèmes, la
-biodiversité et l’environnement plus
-généralement
-
-Essentielle face à la menace grandissante du
-réchauffement climatique
+Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
+Alors, on vous rassure directement , pas besoin de planter des arbres chaque dimanche pour adhérer à ce mouvement qui encourage la protection de nos écosystèmes, ou plus généralement de notre environnement.
+Nous, on vous propose quelque chose de beaucoup plus simple et qui changera vraiment la donne : bien choisir vos poubelles ! 
+En effet, notre projet se concentre sur l'importance du tri sélectif dans 
 
 
 
@@ -34,6 +29,13 @@ Comme expliqué précédemment, le principe est de montrer à travers un program
 Pour ce faire, nous allons d’abord présenter un modèle simple de la situation. 
 Ce modèle consiste à utiliser uniquement deux sortes de poubelles ; une poubelle et une mauvaise, pour plusieurs types de déchets. 
 
+<p> Ceci est un paragraphe normal : </p>
+  <pre><code>Ceci est un bloc de code.
+c'est la fin 
+</code></pre>
+  
+  
+c'est la fin 
 L’algorithme utilise un dictionnaire de tous les déchets avec leur pourcentages dans la poubelle. 
 Nous tirons aléatoirement un déchet et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle. 
 On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
