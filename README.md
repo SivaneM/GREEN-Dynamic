@@ -1,5 +1,7 @@
 
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
+# SOMMAIRE
+
 
 
 ## Pourquoi l'écologie ? 
@@ -7,9 +9,11 @@
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
 Alors, on vous rassure directement , pas besoin de planter des arbres chaque dimanche pour adhérer à ce mouvement qui encourage la protection de nos écosystèmes, ou plus généralement de notre environnement.
 
-Nous, on vous propose quelque chose de beaucoup plus simple et qui changera vraiment la donne : bien choisir vos poubelles ! 
-En effet, notre projet se concentre sur l'importance du tri sélectif dans la défense de notre planète face à la menace grandissante du réchauffement climatique. Et on peut y gagner beaucoup ! Grâce au tri quotidien des déchets , non seulement on favorise leur recyclage mais en plus, on préserve les ressources naturelles (qui sont de plus en plus faibles) et on évite le gaspillage. Alors, toujours pas convaincu ?
+Nous, on vous propose quelque chose de beaucoup plus simple et qui changera vraiment la donne :
+**bien choisir vos poubelles** ! 
+En effet, notre projet se concentre sur l'importance du tri sélectif dans la défense de notre planète face à la menace grandissante du réchauffement climatique. Et on peut y gagner beaucoup ! Grâce au tri quotidien des déchets , non seulement on favorise leur recyclage mais en plus, on préserve les ressources naturelles (qui sont de plus en plus *faibles*) et on évite le gaspillage. Alors, toujours pas convaincu ?
 Ce n'est pas un problème, là est tout l'enjeu de notre projet. Ainsi, nous allons vous présenter deux différents programmes qui modélisent de manière simple et plus complexe, l'intêret du tri sélectif.
+Mais alors, quel lien avec la dynamique ?  En nous basant ainsi sur le modèle du tri séléctif et sur l'idée de l'écologie en général, nos deux programmes sont élaborés de sorte à ce qu'ils correspondent à des sytèmes dynamiques. En effet, dans ces systèmes, le temps est défini par le nombre de fois où l'on envoie de noveaux déchets dans les différentes poubelles et le micro correspond à la destination de chaque déchet. De cette manière le macro évalue le nombre de déchets qui sont bien placés ou pas dans chaque poubelle pour mettre en avant que l'action de chacun influence fortement l'avenir de tous.
 
 
 
