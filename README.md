@@ -5,7 +5,7 @@
 
 * [Pourquoi l'écologie ?](#siv)
 * [Modèle simple](#avi)
-
+* [Modèle complexe](#lilo)
 
 <a name="siv"></a>
 ## _**Pourquoi l'écologie ?**_
@@ -61,7 +61,7 @@ def nb_dans_poubelle(p,q):
 
 
 
-
+<a name="lilo"></a>
 ## Modèle complexe 
 
 On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
