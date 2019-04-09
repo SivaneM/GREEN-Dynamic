@@ -4,9 +4,18 @@
   
 # **SOMMAIRE**
 
+* [Membre du groupe](#ariel)
 * [Pourquoi l'écologie ?](#siv)
 * [Modèle simple](#avi)
 * [Modèle complexe](#lilo)
+
+<a name="ariel"></a>
+## _**Membre du groupe**_
+* Marciano Sivane 
+* Baichère Mathéo
+* Torjmane Ariel
+* Tabbakh Amine
+
 
 <a name="siv"></a>
 ## _**Pourquoi l'écologie ?**_
