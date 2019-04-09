@@ -2,10 +2,10 @@
 <img src = "https://mgv.coop/wp-content/uploads/2016/02/ecologique-MGV.png" alt = "Eco" title = "Ecologie" width = "400" height = "400" >
 # SOMMAIRE
 
-[lol] {lol}
+[lol](#lol)
 
 
-# test # {lol}
+
 ## _**Pourquoi l'écologie ?**_ 
 
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
@@ -64,7 +64,7 @@ def nb_dans_poubelle(p,q):
 On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
 
 ## lol 
-
+<a name="lol"></a>
 ## Interprétation et optimisation
 
 L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
