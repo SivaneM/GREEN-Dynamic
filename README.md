@@ -18,9 +18,9 @@ En effet, notre projet se concentre sur l'importance du tri sélectif dans
 >Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
 
 <p> Premièrement, l’algorithme utilise un dictionnaire de probabilités de la présence des déchets dans la poubelle, probabilités que l'on a distribué équitablement entre les deux déchets A et B : </p>
-  <pre><code> p = {"A" : 0.5,
-                   "B" : 0.5}
-</code>/pre>
+  <pre><code>p = {"A" : 0.5,
+  "B" : 0.5}
+</code></pre>
 
 
 
