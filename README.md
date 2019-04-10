@@ -55,6 +55,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
   <pre><code>q = {"BonnePoubelle" : 0.9,
     "MauvaisePoubelle" : 0.1,
     ""}
+=======================================    
 
 def poubelle_choisie(p,q):
     f = flux(p)
@@ -73,6 +74,8 @@ def poubelle_choisie(p,q):
                 return "MauvaisePoubelle"
                 
 </code></pre>
+
+Ainsi, en fonction de la destination de
 
 On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
 Une fois la bonne poubelle remplie, celle-ci est vidée et le mécanisme continue. 
