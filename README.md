@@ -52,13 +52,11 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
 
 
 <p> Nous tirons aléatoirement un déchet par la fonction <code>flux(p)</code> et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction <code>poubelle-choisie(p,q)</code> suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
-  <pre><code> q = {"BonnePoubelle" : 0.9,
-    "MauvaisePoubelle" : 0.1,
-    ""}
+  <pre><code>
+  
+  ```python
     
-```python
-    
-def poubelle_choisie(p,q):
+  def poubelle_choisie(p,q):
     f = flux(p)
     n = (randrange(0,100)x1.0)/100
     if f == "A":
