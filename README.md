@@ -75,10 +75,8 @@ def poubelle_choisie(p,q):
                 
 </code></pre>
 
-Ainsi, en fonction de la destination de
+Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déchet, attribue une destination, nous avons pu coder une autre fonction, <code>nb_dans_poubelle(p,q)</code>, qui présente le nombre de déchet dans chaque poubelle pour 100 déchets. C'est ce qui nous a permis d'écricre la fonction <code>nfoispoubelle(p,q,n)</code> qui, selon un nombre n de tours choisi par l'utilisateur, permet de visualiser le nombre de déchet par tour obtenu grâce à la fonction précédente. 
 
-On remarque ainsi que le facteur dépend de celui qui a jeter précédemment un déchet.
-Une fois la bonne poubelle remplie, celle-ci est vidée et le mécanisme continue. 
 
  
 <a name="lilo"></a>
