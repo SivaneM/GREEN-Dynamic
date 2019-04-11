@@ -52,7 +52,11 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
 
 
 <p> Nous tirons aléatoirement un déchet par la fonction <code>flux(p)</code> et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction <code>poubelle-choisie(p,q)</code> suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
-  <pre><code> q = {"BonnePoubelle" : 0.9,
+  <pre><code> 
+  
+  ```
+  
+  q = {"BonnePoubelle" : 0.9,
     "MauvaisePoubelle" : 0.1,
     ""}
   
@@ -69,6 +73,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
             return "BonnePoubelle"
         else: 
             return "MauvaisePoubelle"
+```
           
 </code></pre>
 
@@ -83,14 +88,14 @@ On peut effectivement observer dans le graphique ci dessus, que le nombre de dé
 
  
 <a name="lilo"></a>
-## Modèle complexe 
+## _**Modèle complexe**_
 
 On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
 
 
 
 <a name="lol"></a>
-## Interprétation et optimisation
+## _**Interprétation et optimisation**_
 
 L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
 
