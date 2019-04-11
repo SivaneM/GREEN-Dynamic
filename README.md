@@ -57,25 +57,28 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
     ""}
 =======================================    
 
-def poubelle_choisie(p,q):
+
+def **poubelle_choisie**(p,q):
     f = flux(p)
     n = (randrange(0,100)x1.0)/100
     if f == "A":
-        for d in q:
-            if n >= q[d]:
-                return "BonnePoubelle"
-            else: 
-                return "MauvaisePoubelle"
+        if n >= q["MauvaisePoubelle"]:
+            return "BonnePoubelle"
+        else: 
+            return "MauvaisePoubelle"
     else:
-        for d in q:
-            if n >= q[d]:
-                return "BonnePoubelle"
-            else: 
-                return "MauvaisePoubelle"
+        if n >= q["MauvaisePoubelle"]:
+            return "BonnePoubelle"
+        else: 
+            return "MauvaisePoubelle"
                 
 </code></pre>
 
-Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déchet, attribue une destination, nous avons pu coder une autre fonction, <code>nb_dans_poubelle(p,q)</code>, qui présente le nombre de déchet dans chaque poubelle pour 100 déchets. C'est ce qui nous a permis d'écricre la fonction <code>nfoispoubelle(p,q,n)</code> qui, selon un nombre n de tours choisi par l'utilisateur, permet de visualiser le nombre de déchet par tour obtenu grâce à la fonction précédente. 
+Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déchet, attribue une destination, nous avons pu coder une autre fonction, <code>nb_dans_poubelle(p,q)</code>, qui présente le nombre de déchet dans chaque poubelle pour 100 déchets. C'est ce qui nous a permis d'écricre la fonction <code>nfoispoubelle(p,q,n)</code> qui, selon un nombre n de tours choisi par l'utilisateur, permet de visualiser le nombre de déchet par tour obtenu grâce à la fonction précédente. Enfin, nous avons programmé un graphique, par la fonction <code>plot_poubelle(M,n)</code> qui, en somme de cette suite de fonctions, permet de se rendre compte de la constance du nombre de déchets par poubelle, bonne et mauvaise, et ce, dû au dictionnaire de probabilités de répartition q, initialisé plus tôt. 
+
+![PlotPoubelle](Documents/siv)
+
+On peut effectivement observer dans le graphique ci dessus, que le nombre de déchets dans la bonne poubelle se situe toujours aux environ de 90 et cela s'exlique du fait que pour chaque tour, 100 déchets sont traités et leur probabilité d'être bien placés est de 0,9. On suit le même raisonnement avec les déchets des mauvaises poubelles avec une probabilités de 0,1.
 
 
  
