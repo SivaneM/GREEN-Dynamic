@@ -137,29 +137,30 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 
 * De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:black">dic_nb_bonne_poub</span> et  <span style="color:black">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:black">dictionaire_nombre_dechet</span>.
 
-<pre><code> def poubelle_choisie(nom_du_dechet,dict_bon_dechet,dict_mauvais_dechet):
+<pre><code> <span style="color:green">def</span>  <span style="color:blue">poubelle_choisie(nom_du_dechet,dict_bon_dechet,dict_mauvais_dechet)</span>:
     
-    var = random.random() #Tire un aléatoirement une proba pour savoir le mettre dans la bonne ou pas 
+  
+   var <span style="color:purple">=</span> random.random() #Tire un aléatoirement une proba pour savoir le mettre dans la bonne ou pas 
     # La personne responsable du Flux , va choisir de la mettre dans la bonne ou mauvaise poubelle.
-    indicateur = change_si_90_dans_la_poubelle(dictionaire_nombre_dechet,nom_du_dechet,dictionaire_taille)
+    indicateur <span style="color:purple">=</span> change_si_90_dans_la_poubelle(dictionaire_nombre_dechet,nom_du_dechet,dictionaire_taille)
     #On utilise deux dictionnaire non passés en paramètre !
     
-    if (indicateur == True): #Poubelle pour ce déchet à dépasser 90%
+   <span style="color:green">if</span> (indicateur <span style="color:purple">==</span> <span style="color:green">True</span>): #Poubelle pour ce déchet à dépasser 90%
         # On le met directement dans la mauvaise poubelle
-        dict_mauvais_dechet[nom_du_dechet]+=1
-        dictionaire_nombre_dechet[nom_du_dechet]+=1
+        dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
+        dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
         
-    else: # Poubelle pour ce déchet pas encore à 90% 
-        if(var<=0.7): # 70% de le mettre dans la bonne et 30% de la mettre dans la mauvaise
-            dict_bon_dechet[nom_du_dechet]+=1
-            dictionaire_nombre_dechet[nom_du_dechet]+=1
+   <span style="color:green">else</span>: # Poubelle pour ce déchet pas encore à 90% 
+        if(var<span style="color:purple"><=</span>0.7): # 70% de le mettre dans la bonne et 30% de la mettre dans la mauvaise
+            dict_bon_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
+            dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
             
-        else: # On le met dans la mauvaise poubelle 30% de la mauvaise.
-            dict_mauvais_dechet[nom_du_dechet]+=1
-            dictionaire_nombre_dechet[nom_du_dechet]+=1
+   <span style="color:purple">else</span>: # On le met dans la mauvaise poubelle 30% de la mauvaise.
+            dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
+            dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
-    return 
+  <span style="color:green">+=</span>1return 
     
 </code></pre>
 
