@@ -1,8 +1,8 @@
 <p align ="center">
   <img width = "400" height = "400" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg">
 </p>
-   
- #**SOMMAIRE**
+
+# **SOMMAIRE**
 
 * [Membre du groupe](#ariel)<br/>
 * [Pourquoi l'écologie ?](#siv)<br/>
