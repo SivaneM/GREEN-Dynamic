@@ -126,13 +126,16 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 
 * Le déchet choisi à envoyer dans l'une des poubelles, défini par la fonction <code>dechet_choisi</code>
 
+
 * Un aléatoire de propabilité <span style="color:purple">r</span> donc défini entre 0 et 1, au sein de la fonction, utilisé de la façon suivante :
   - s'il est <span style="color:green"><= 0,7</span>, le déchet est mis dans la bonne poubelle qui correspond simplement aux 70% de chances qu'un déchet a d'être bien placé.
   - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.
+  
 
 * De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées. 
 
-* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:pink">dictionaire_nombre_dechet_bonne_poubelles</span> et  <span style="color:pink">dictionaire_nombre_dechet_mauvaise_poubelles</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:green">dictionaire_nombre_dechet</span>
+
+* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:pink">dictionaire_nombre_dechet_bonne_poubelles</span> et  <span style="color:pink">dictionaire_nombre_dechet_mauvaise_poubelles</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:pink">dictionaire_nombre_dechet</span>
 
 
 <a name="lol"></a>
