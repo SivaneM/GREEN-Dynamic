@@ -1,19 +1,16 @@
 <p align ="center">
   <img width = "400" height = "400" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg">
 </p>
-  
-<p align="center"> 
-  # **SOMMAIRE** 
-</p>
+   
+ # **SOMMAIRE**
 
-* [Membre du groupe](#ariel)
-* [Pourquoi l'écologie ?](#siv)
-* [Modèle simple](#avi)
-* [Modèle complexe](#lilo)
+* [Membre du groupe](#ariel)<br/>
+* [Pourquoi l'écologie ?](#siv)<br/>
+* [Modèle simple](#avi)<br/>
+* [Modèle complexe](#lilo)<br/>
 
 <a name="ariel"></a>
-## _**Membre du groupe**_
-<span style="color:green">-------------------</span>
+* ## _**Membre du groupe**_
 
 >Marciano Sivane 
 
@@ -25,8 +22,7 @@
 
 
 <a name="siv"></a>
-## _**Pourquoi l'écologie ?**_
-<span style="color:green">-------------------</span>
+* ## _**Pourquoi l'écologie ?**_
 
 
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
@@ -46,7 +42,7 @@ Mais alors, quel lien avec la dynamique ?  En nous basant ainsi sur le modèle d
 
 
 <a name="avi"></a>
-## _**Modèle simple**_
+* ## _**Modèle simple**_
 
 Pour évaluer la pertinence de notre sujet, nous avons décidé d'établir dans un premier temps un modèle simple qui utilise une loi de répartition telle que 90% des déchets vont dans la poubelle qui leur sont destinés et 10% dans la mauvaise.
 Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
@@ -95,7 +91,7 @@ Ainsi, après avoir établi notre premier modèle, nous avons décidé d'établi
 
  
 <a name="lilo"></a>
-## _**Modèle complexe**_
+* ## _**Modèle complexe**_
 
 Pour affiner notre projet, nous avons décidé d'établir un modèle complexe qui veut que, non pas deux types de déchéts ne soient traités mais **sept**. Ainsi, nous nous sommes référencés aux sortes de déchéts les plus rencontrées quotidiennement dans le but de préserver un lien de cohérence entre les résultats de notre projet et les conditions de la réalité. En effet, l'écologie étant placée au centre de notre sujet, nous nous devions de respecter au maximum les critères déja existants pour pouvoir possiblement faire avancer cet enjeu environnemental et politique.
 
@@ -168,12 +164,12 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 </code></pre>
 <br/>
 
-Par la suite
+Par la suite, 
 
 
 
 <a name="lol"></a>
-## _**Interprétation et optimisation**_
+* ## _**Interprétation et optimisation**_
 
 L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
 
