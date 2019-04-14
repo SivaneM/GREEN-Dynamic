@@ -79,14 +79,24 @@ Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déch
 </p>
 
 On peut effectivement observer dans le graphique ci dessus, que le nombre de déchets dans la bonne poubelle se situe toujours aux environ de 90 et cela s'exlique du fait que pour chaque tour, 100 déchets sont traités et leur probabilité d'être bien placés est de 0,9. On suit le même raisonnement avec les déchets des mauvaises poubelles avec une probabilités de 0,1.
+De ce
 
-Ainsi, 
+Ainsi, après avoir établi notre premier modèle, nous avons décidé d'établir la suite de notre projet en partant du même principe mais ce de manière plus complexifiée et travaillée, qui constitua notre **Modèle complexe**.
 
  
 <a name="lilo"></a>
 ## _**Modèle complexe**_
 
-On utilise un dictionnaire pour chaque type de déchets on associe sa poubelle correspondante.
+Pour affiner notre projet, nous avons décidé d'établir un modèle complexe qui veut que, non pas deux types de déchéts ne soient traités mais sept. Ainsi, nous nous sommes référencés aux sortes de déchéts les plus rencontrées quotidiennement dans le but de préserver un lien de cohérence entre les résultats de notre projet et les conditions de la réalité. En effet, l'écologie étant placée au centre de notre sujet, nous nous devions de respecter au maximum les critères déja existants pour pouvoir possiblement faire avancer cet enjeu environnemental et politique.
+
+De cette manière, en nous basant sur des chiffres de statistiques réelles, nous avons tout d'abord initialisé un dictionnaire rapportant les répartitions des déchets dans les poubelles. Ceci nous a premis par la suite d'établir une base de données quant aux probabilités d'envoi d'un type de déchet ou d'un autre pour chaque flux utilisé par notre programme. Ainsi, nous avons obtenu ce dictionnaire initial : 
+
+
+<p align ="center">
+  <img width = "800" height = "300" src = "https://image.noelshack.com/fichiers/2019/15/7/1555238545-capture-d-ecran-2019-04-14-a-12-42-07.png">
+</p>
+
+
 
 
 
