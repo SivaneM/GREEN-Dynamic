@@ -135,7 +135,7 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 * De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées.<br/>
 
 
-* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:pink">dic_nb_bonne_poub</span> et  <span style="color:pink">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:pink">dictionaire_nombre_dechet</span>
+* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:black">dic_nb_bonne_poub</span> et  <span style="color:black">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:black">dictionaire_nombre_dechet</span>
 
 
 <a name="lol"></a>
