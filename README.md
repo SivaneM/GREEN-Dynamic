@@ -107,7 +107,7 @@ Justement, prenons par exemple un des critères de notre système qui correspond
 
 > **La bonne poubelle de l'un correspond à la mauvaise des six autres**
 
-De cette façon, la "bonne" poubelle d'un déchet fait de plastique sera _logiquement_ la poubelle de plastique et une "mauvaise" sera par exemple la poubelle de carton ou de métal. On a donc un schéma constitué de sept poubelles différentes, de flux envoyant des n déchets vers ces poubelles et une suite de fonctions perfectionnant ce schéma jusqu'à qu'il devienne un réel modèle complexe.
+De cette façon, la <span style="color:green">"bonne"</span> poubelle d'un déchet fait de plastique sera _logiquement_ la poubelle de plastique et une "mauvaise" sera par exemple la poubelle de carton ou de métal. On a donc un schéma constitué de sept poubelles différentes, de flux envoyant des n déchets vers ces poubelles et une suite de fonctions perfectionnant ce schéma jusqu'à qu'il devienne un réel modèle complexe.
 
 Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure une taille aléatoire pour chaque poubelle entre 100 et 400 centimètres pour persévérer sur la voie de la cohérence et, une fois ces tailles atribuées à chaque poubelles, on n'effectue aucun changement par la suite, les tailles restent fixes une fois le programme lancé : 
 
