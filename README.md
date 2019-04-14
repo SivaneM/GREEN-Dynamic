@@ -48,14 +48,14 @@ Pour évaluer la pertinence de notre sujet, nous avons décidé d'établir dans 
 Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une bonne poubelle et une mauvaise, pour seulement deux types de déchets : A et B. 
 
 <p> Premièrement, l’algorithme utilise un dictionnaire de probabilités de la présence des déchets dans la poubelle, probabilités que l'on a distribué équitablement entre les deux déchets A et B : </p>
-  <pre><code>p = {"A" : 0.5,
-     "B" : 0.5}
+  <pre><code>p = {<span style="color:red">"A"</span> : <span style="color:green">0.5</span>,
+     <span style="color:red">"B"</span> : <span style="color:green">0.5</span>}
 </code></pre>
 
 
 <p> Nous tirons aléatoirement un déchet par la fonction <code>flux(p)</code> et nous observons si le déchet ira dans la bonne ou dans la mauvaise poubelle grâce à la fonction <code>poubelle-choisie(p,q)</code> suivante, avec q, le dictionnaire de probabilités de répartition des déchets: </p>
-  <pre><code> q = {"BonnePoubelle" : 0.9,
-    "MauvaisePoubelle" : 0.1,
+  <pre><code> q = {<span style="color:red">"BonnePoubelle"</span> : <span style="color:green">0.9</span>,
+    <span style="color:red">"MauvaisePoubelle"</span> : <span style="color:green">0.1</span>,
     ""}
   
   ================================================
@@ -63,16 +63,16 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
   <span style="color:green">def</span> <span style="color:blue">poubelle_choisie(p,q)</span>:
     f = flux(p)
     n = (randrange(0,100)x1.0)/100
-    if f == "A":
-        if n >= q["MauvaisePoubelle"]:
-            return "BonnePoubelle"
-        else: 
-            return "MauvaisePoubelle"
-    else:
-        if n >= q["MauvaisePoubelle"]:
-            return "BonnePoubelle"
-        else: 
-            return "MauvaisePoubelle"
+    <span style="color:green">if</span> f == "A":
+        <span style="color:green">if</span> n >= q["MauvaisePoubelle"]:
+            return <span style="color:red">"BonnePoubelle"</span>
+        <span style="color:green">else</span>: 
+            return <span style="color:red">"MauvaisePoubelle"</span>
+    <span style="color:green">else</span>:
+        <span style="color:green">if</span> n >= q["MauvaisePoubelle"]:
+            return <span style="color:red">"BonnePoubelle"</span>
+        <span style="color:green">else</span>: 
+            return <span style="color:red">"MauvaisePoubelle"</span>
       
 </code></pre>
 
