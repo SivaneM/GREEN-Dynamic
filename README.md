@@ -119,7 +119,8 @@ Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure u
 </code></pre>
 
 
-On initialise ainsi les tailles des poubelles.
+
+<br/>
 
 On va par la suite remplir ces mêmes poubelles et ce, principalement par la fonction <code>poubelle_choisie(nom_du_dechet,dict_bd, dict_mv)</code>. Cette fonction va modifier et dépendre des paramètres suivants:
 
@@ -152,6 +153,14 @@ Par la suite, la fonction <code>eboueur(diction_nombre_dechet,dict_taille,dict_e
     <span style="color:green">return</span> 
     
 </code></pre>
+<br/>
+
+Une fois l'ensemble de ces fonctions établies, on peut enfin coder la fonction <code>flux()</code> qui tire un déchet et lui attribue une poubelle, et celle qui en découle directement, <code>n_flux(n,k)</code> qui fait tourner la fonction <code>flux()</code> n fois pour un n passé en paramètre et qui laisse l'utilisateur décider pour quel k tour, passé en paramètre l'éboueur passera vider les poubelles qui le nécessitent. 
+
+
+Enfin, on peut visualiser la répartition des déchets au bout d'un flux composé de n tours, dans les bonnes et mauvaises poubelles grâce aux graphiques suivant :
+
+* Le graphique qui présente la répartition des déchets selon leur types lorsque l'on sait qu'ils sont classés dans les mauvaises poubelles : 
 
 
 
