@@ -150,7 +150,8 @@ Par la suite, la fonction <code>eboueur(diction_nombre_dechet,dict_taille,dict_e
             diction_nombre_dechet[k]<span style="color:purple">=</span> 0
              #on rajoute le nombre initational dans le dict ebouer qui nous permettra la vérification finale pour le Plot !
     <span style="color:green">return</span> 
-
+    
+</code></pre>
 
 
 
