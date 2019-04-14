@@ -113,13 +113,13 @@ Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure u
 
 <pre><code> <span style="color:green">def</span> <span style="color:blue">def_taille_poubelle(df)</span>: #FIXE ! PAS DE CHANGEMENT !
     <span style="color:green">for</span> d <span style="color:green">in</span> df:
-        var = random.randint(100,400)
-        df[d]=var
-    return d
+        var <span style="color:purple">=</span> random.randint(100,400)
+        df[d]<span style="color:purple">=</span>var
+    return <span style="color:red">d</span>
     
 </code></pre>
 
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+
 
 <a name="lol"></a>
 ## _**Interprétation et optimisation**_
