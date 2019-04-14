@@ -58,7 +58,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
   
   ================================================
   
-  def **poubelle_choisie(p,q)**:
+  def poubelle_choisie(p,q):
     f = flux(p)
     n = (randrange(0,100)x1.0)/100
     if f == "A":
