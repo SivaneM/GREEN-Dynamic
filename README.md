@@ -93,11 +93,17 @@ De cette manière, en nous basant sur des chiffres de statistiques réelles, nou
 
 
 <p align ="center">
-  <img width = "500" height = "200" src = "https://image.noelshack.com/fichiers/2019/15/7/1555238545-capture-d-ecran-2019-04-14-a-12-42-07.png">
+  <img width = "550" height = "200" src = "https://image.noelshack.com/fichiers/2019/15/7/1555238545-capture-d-ecran-2019-04-14-a-12-42-07.png">
 </p>
 
+Néanmoins, pour ce qui est des autres dictionniaires utlies à notre programmes, nous les avons tous initialisés de manière nulle parce que définis plus tard par différentes fonctions. 
+Justement, prenons par exemple un des critères de notre système qui correspond à la _**taille des poubelles**_, et qui est décisif pour le reste de notre programme. On peut vous rappeler que dans ce modèle nous  avons décidé de nous pencher sur sept types de déchets. Mais qui dit sept types de déchets dit également **sept types de poubelles** !. En effet on peut pour comprendre se référer à la loi du modèle simple qui veut que :
 
+> **La bonne poubelle de l'un correspond à la mauvaise des six autres**
 
+De cette façon, la "bonne" poubelle d'un déchet fait de plastique sera _logiquement_ la poubelle de plastique et une "mauvaise" sera par exemple la poubelle de carton ou de métal. On a donc un schéma constitué de sept poubelles différentes, de flux envoyant des n déchets vers ces poubelles et une suite de fonctions perfectionnant ce schéma jusqu'à qu'il devienne un réel modèle complexe.
+
+Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure une taille aléatoire pour chaque poubelle entre 100 et 400 centimètres pour continuer sur la voie de la cohérence et, une fois ces tailles atribuées à chaque poubelles, on n'a aucun changement par la suite, les tailles restes fixes une fois le programme lancé. 
 
 
 <a name="lol"></a>
