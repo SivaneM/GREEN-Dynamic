@@ -160,7 +160,7 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
             dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
             dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
-  <span style="color:green">+=</span>1return 
+  <span style="color:green">return</span>
     
 </code></pre>
 
