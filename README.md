@@ -137,34 +137,21 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 
 * De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:black">dic_nb_bonne_poub</span> et  <span style="color:black">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:black">dictionaire_nombre_dechet</span>.
 
-<pre><code> <span style="color:green">def</span>  <span style="color:blue">poubelle_choisie(nom_du_dechet,dict_bon_dechet,dict_mauvais_dechet)</span>:
-    
-  
-   var <span style="color:purple">=</span> random.random() <span style="color:blue">#Tire un aléatoirement une proba pour savoir le mettre dans la bonne ou pas</span>
-    indicateur <span style="color:purple">=</span> change_si_90_dans_la_poubelle(dictionaire_nombre_dechet,nom_du_dechet,dictionaire_taille)
-    <span style="color:blue">#On utilise deux dictionnaire non passés en paramètre !</span>
-    
-   <span style="color:green">if</span> (indicateur <span style="color:purple">==</span> <span style="color:green">True</span>): <span style="color:blue">#Poubelle pour ce déchet à dépasser 90%
-        # On le met directement dans la mauvaise poubelle</span>
-        dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
-        dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
-        
-   <span style="color:green">else</span>:<span style="color:blue"> # Poubelle pour ce déchet pas encore à 90% </span>
-        if(var<span style="color:purple"><=</span>0.7): <span style="color:blue"># 70% de le mettre dans la bonne et 30% de la mettre dans la mauvaise</span>
-            dict_bon_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
-            dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
-            
-   <span style="color:green">else</span>: <span style="color:blue"># On le met dans la mauvaise poubelle 30% de la mauvaise. </span>
-            dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
-            dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
-
-  <span style="color:green">return</span>
-    
-</code></pre>
 <br/>
 
-Par la suite, 
+Par la suite, la fonction <code>eboueur(diction_nombre_dechet,dict_taille,dict_eboueur)</code> suivante, permet de remettre à vide toutes les poubelles étant remplies à plus de 90% et met à jour le <code>dict_eboueur</code> qui pour chaque type de poubelles, comptabilise le nombre de fois où l'éboueur l'a vidée : 
+
+<pre><code><span style="color:green">def</span> <span style="color:blue">eboueur</span>(diction_nombre_dechet,dict_taille,dict_eboueur):
+    <span style="color:blue">#l'eboueur vide toutes les poubelles dépassant >= 90% de leurs taille !</span>
+    <span style="color:green">for</span> k <span style="color:green">in</span> diction_nombre_dechet:
+        <span style="color:green">if</span> ((change_si_90_dans_la_poubelle(diction_nombre_dechet,k,dict_taille)) <span style="color:purple">==</span> <span style="color:green">True</span>):
+            dict_eboueur[k]<span style="color:purple">+=</span> diction_nombre_dechet[k]
+            diction_nombre_dechet[k]<span style="color:purple">=</span> 0
+             #on rajoute le nombre initational dans le dict ebouer qui nous permettra la vérification finale pour le Plot !
+    <span style="color:green">return</span> 
+
+
 
 
 
