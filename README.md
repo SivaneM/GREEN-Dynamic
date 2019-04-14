@@ -113,7 +113,7 @@ Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure u
 
 <pre><code> 
 
-```python 
+``` 
 def def_taille_poubelle(df): #FIXE ! PAS DE CHANGEMENT !
     for d in df:
         var = random.randint(100,400)
