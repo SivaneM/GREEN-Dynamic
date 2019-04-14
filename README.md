@@ -2,7 +2,9 @@
   <img width = "400" height = "400" src = "https://hijab-in.com/wp-content/uploads/2013/09/ecologie.jpg">
 </p>
   
-# **SOMMAIRE**
+<p align="center"> 
+  # **SOMMAIRE** 
+</p>
 
 * [Membre du groupe](#ariel)
 * [Pourquoi l'écologie ?](#siv)
@@ -11,6 +13,7 @@
 
 <a name="ariel"></a>
 ## _**Membre du groupe**_
+<span style="color:green">-------------------</span>
 
 >Marciano Sivane 
 
@@ -23,6 +26,7 @@
 
 <a name="siv"></a>
 ## _**Pourquoi l'écologie ?**_
+<span style="color:green">-------------------</span>
 
 
 Vous vous demandez sûrement : Pourquoi l'écologie ? A quoi ça sert ? Et surtout comment ?
@@ -58,7 +62,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
     <span style="color:red">"MauvaisePoubelle"</span> : <span style="color:green">0.1</span>,
     }
   
-  <span style="color:purple">================================================</span>
+  <span style="color:black">================================================</span>
   
   <span style="color:green">def</span> <span style="color:blue">poubelle_choisie(p,q)</span>:
     f = flux(p)
@@ -155,14 +159,16 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
             dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
             
-   <span style="color:purple">else</span>: <span style="color:blue"># On le met dans la mauvaise poubelle 30% de la mauvaise. </span>
+   <span style="color:green">else</span>: <span style="color:blue"># On le met dans la mauvaise poubelle 30% de la mauvaise. </span>
             dict_mauvais_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
             dictionaire_nombre_dechet[nom_du_dechet]<span style="color:purple">+=</span>1
 
   <span style="color:green">return</span>
     
 </code></pre>
+<br/>
 
+Par la suite
 
 
 
