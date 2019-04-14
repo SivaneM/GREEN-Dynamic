@@ -128,14 +128,42 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 
 * Un aléatoire de propabilité <span style="color:purple">r</span> donc défini entre 0 et 1, au sein de la fonction, utilisé de la façon suivante :
   - s'il est <span style="color:green"><= 0,7</span>, le déchet est mis dans la bonne poubelle qui correspond simplement aux 70% de chances qu'un déchet a d'être bien placé.
-  - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.
+  - s'il est <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.
 <br/><br/>
   
 
 * De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées.<br/>
 
 
-* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:black">dic_nb_bonne_poub</span> et  <span style="color:black">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:black">dictionaire_nombre_dechet</span>
+* De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:black">dic_nb_bonne_poub</span> et  <span style="color:black">dic_nb_mauvaise_poub</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:black">dictionaire_nombre_dechet</span>.
+
+<pre><code> def poubelle_choisie(nom_du_dechet,dict_bon_dechet,dict_mauvais_dechet):
+    
+    var = random.random() #Tire un aléatoirement une proba pour savoir le mettre dans la bonne ou pas 
+    # La personne responsable du Flux , va choisir de la mettre dans la bonne ou mauvaise poubelle.
+    indicateur = change_si_90_dans_la_poubelle(dictionaire_nombre_dechet,nom_du_dechet,dictionaire_taille)
+    #On utilise deux dictionnaire non passés en paramètre !
+    
+    if (indicateur == True): #Poubelle pour ce déchet à dépasser 90%
+        # On le met directement dans la mauvaise poubelle
+        dict_mauvais_dechet[nom_du_dechet]+=1
+        dictionaire_nombre_dechet[nom_du_dechet]+=1
+        
+    else: # Poubelle pour ce déchet pas encore à 90% 
+        if(var<=0.7): # 70% de le mettre dans la bonne et 30% de la mettre dans la mauvaise
+            dict_bon_dechet[nom_du_dechet]+=1
+            dictionaire_nombre_dechet[nom_du_dechet]+=1
+
+            
+        else: # On le met dans la mauvaise poubelle 30% de la mauvaise.
+            dict_mauvais_dechet[nom_du_dechet]+=1
+            dictionaire_nombre_dechet[nom_du_dechet]+=1
+
+    return 
+    
+</code></pre>
+
+
 
 
 <a name="lol"></a>
