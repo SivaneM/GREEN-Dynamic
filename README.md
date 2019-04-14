@@ -60,7 +60,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
   
   ================================================
   
-  def poubelle_choisie(p,q):
+  <span style="color:green">def</span> <span style="color:blue">poubelle_choisie(p,q)</span>:
     f = flux(p)
     n = (randrange(0,100)x1.0)/100
     if f == "A":
