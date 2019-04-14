@@ -111,8 +111,7 @@ De cette façon, la "bonne" poubelle d'un déchet fait de plastique sera _logiqu
 
 Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure une taille aléatoire pour chaque poubelle entre 100 et 400 centimètres pour persévérer sur la voie de la cohérence et, une fois ces tailles atribuées à chaque poubelles, on n'effectue aucun changement par la suite, les tailles restent fixes une fois le programme lancé : 
 
-<pre><code> 
-  <span style="color:green">def</span> <span style="color:blue">def_taille_poubelle(df)</span>: #FIXE ! PAS DE CHANGEMENT !
+<pre><code> <span style="color:green">def</span> <span style="color:blue">def_taille_poubelle(df)</span>: #FIXE ! PAS DE CHANGEMENT !
     <span style="color:green">for</span> d <span style="color:green">in</span> df:
         var = random.randint(100,400)
         df[d]=var
