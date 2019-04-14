@@ -128,7 +128,8 @@ On va par la suite remplir ces mêmes poubelles et ce, principalement par la fon
 
 * Un aléatoire de propabilité <span style="color:purple">r</span> donc défini entre 0 et 1, au sein de la fonction, utilisé de la façon suivante :
   - s'il est <span style="color:green"><= 0,7</span>, le déchet est mis dans la bonne poubelle qui correspond simplement aux 70% de chances qu'un déchet a d'être bien placé.
-  - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.<br/>
+  - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.
+<br/>
   
 
 * De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées.<br/>
