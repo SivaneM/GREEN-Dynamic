@@ -85,10 +85,10 @@ Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déch
 On peut effectivement observer dans le graphique ci dessus, que le nombre de déchets dans la bonne poubelle se situe toujours aux environ de 90 et cela s'exlique du fait que pour chaque tour, 100 déchets sont traités et leur probabilité d'être bien placés est de 0,9. On suit le même raisonnement avec les déchets des mauvaises poubelles avec une probabilités de 0,1.
 De ce
 
-Ainsi, après avoir établi notre premier modèle, nous avons décidé d'établir la suite de notre projet en partant du même principe mais ce de manière plus complexifiée et travaillée, qui constitua notre **modèle complexe**.
+Ainsi, après avoir établi notre premier modèle, nous avons décidé d'établir la suite de notre projet en partant du même principe mais ce de manière plus complexifiée et travaillée, qui constitua notre **modèle complexe**.<br/><br/>
 
  
- 
+
  
 <a name="lilo"></a>
 ## _**Modèle complexe**_
@@ -98,9 +98,8 @@ Pour affiner notre projet, nous avons décidé d'établir un modèle complexe qu
 De cette manière, en nous basant sur des chiffres de statistiques réelles, nous avons tout d'abord initialisé un dictionnaire rapportant les répartitions des déchets dans les poubelles. Ceci nous a premis par la suite d'établir une base de données quant aux probabilités d'envoi d'un type de déchet ou d'un autre pour chaque flux utilisé par notre programme. Ainsi, nous avons obtenu ce dictionnaire initial : 
 
 
-<p align ="center">
   <img width = "550" height = "200" src = "https://image.noelshack.com/fichiers/2019/15/7/1555238545-capture-d-ecran-2019-04-14-a-12-42-07.png">
-</p>
+
 
 Néanmoins, pour ce qui est des autres dictionniaires utlies à notre programmes, nous les avons tous initialisés de manière nulle parce que définis plus tard par différentes fonctions. 
 Justement, prenons par exemple un des critères de notre système qui correspond à la _**taille des poubelles**_, et qui est décisif pour le reste de notre programme. On peut vous rappeler que dans ce modèle nous  avons décidé de nous pencher sur sept types de déchets. Mais qui dit sept types de déchets dit également **sept types de poubelles** !. En effet on peut pour comprendre se référer à la loi du modèle simple qui veut que :
@@ -124,15 +123,15 @@ On initialise ainsi les tailles des poubelles.
 
 On va par la suite remplir ces mêmes poubelles et ce, principalement par la fonction <code>poubelle_choisie(nom_du_dechet,dict_bd, dict_mv)</code>. Cette fonction va modifier et dépendre des paramètres suivants:
 
-* Le déchet choisi à envoyer dans l'une des poubelles, défini par la fonction <code>dechet_choisi</code>
+* Le déchet choisi à envoyer dans l'une des poubelles, défini par la fonction <code>dechet_choisi</code>.<br/>
 
 
 * Un aléatoire de propabilité <span style="color:purple">r</span> donc défini entre 0 et 1, au sein de la fonction, utilisé de la façon suivante :
   - s'il est <span style="color:green"><= 0,7</span>, le déchet est mis dans la bonne poubelle qui correspond simplement aux 70% de chances qu'un déchet a d'être bien placé.
-  - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.
+  - s'il est  <span style="color:red">>0,7</span>, le déchet est mis dans la mauvaise poubelle.<br/>
   
 
-* De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées. 
+* De la taille de la poubelle et plus précisément de la fonction <code>change_si_90_dans_la_poubelle</code> qui renvoie un booléen : True si la poubelle est remplie à plus de 90% et False sinon. En effet, si tel est le cas, le déchet qui est préalablement choisi ne sera pas placé dans la bonne poubelle qui correspond à son type mais de façon sûre dans une des poubelles qui ne lui sont pas destinées.<br/>
 
 
 * De plus, cette fonction modifie les dictionnaires de bons et mauvais déchets par flux et celui des déchets en total. Nous disposons d'ailleurs d'une fonction appelée <code>testeur_bon_fonctionnement_system()</code> qui vérifie effectivement que la somme des valeurs des clés de chaque type de déchets des dictionnaires <span style="color:pink">dictionaire_nombre_dechet_bonne_poubelles</span> et  <span style="color:pink">dictionaire_nombre_dechet_mauvaise_poubelles</span> correspond aux valeurs des clés de chaque type de déchet du dictionnaire  <span style="color:pink">dictionaire_nombre_dechet</span>
