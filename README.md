@@ -4,10 +4,18 @@
 
 # **SOMMAIRE**
 
-* [Membre du groupe](#ariel)<br/>
-* [Pourquoi l'écologie ?](#siv)<br/>
-* [Modèle simple](#avi)<br/>
-* [Modèle complexe](#lilo)<br/>
+* [Membre du groupe](#ariel)
+<br/>
+* [Pourquoi l'écologie ?](#siv)
+<br/>
+* [Modèle simple](#avi)
+<br/>
+* [Modèle complexe](#lilo)
+<br/>
+* [Optimisation](#tl)
+<br/>
+* [Interprétation des résultats](#lol)
+<br/>
 
 <a name="ariel"></a>
 * ## _**Membre du groupe**_
@@ -159,11 +167,11 @@ Enfin, on peut visualiser la répartition des déchets au bout d'un flux compos�
 
 * Le graphique qui présente la répartition des déchets selon leur types lorsque l'on sait qu'ils sont classés dans les mauvaises poubelles : 
 
-
-
+<a name ="tl"></a>
+* ## _**Optimisation**_
 
 <a name="lol"></a>
-* ## _**Interprétation et optimisation**_
+* ## _**Interprétation**_
 
 L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
 
