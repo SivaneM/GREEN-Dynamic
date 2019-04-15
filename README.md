@@ -223,6 +223,12 @@ La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire
 <a name="lol"></a>
 * ## _**Interprétation**_
 
+As we explain all along this presentation, ecology is getting more and more important in our lives and its taking a prominent place. 
+
+To help our environnement and the futur of our planet, everyone has to take upon themselves and try their best in selective sorting. Inded, as we saw earlier, there are different types of waste and every waste has its own garbage ; if by mistake you throw out you trash in the wrong garbage you automatically influence the person who will come after to throw his trash. 
+
+
+
 L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
 
 Le tri sélectif est un geste anodin du quotidien qui peut apporter une grande différence à l’échelle du réchauffement climatique. Fabriquer consomme plus d’énergie que recycler, mais émet aussi plus de gaz à effet de serre. Ainsi, trier permet non seulement de réduire les émissions de gaz à effets de serres, mais permet aussi d’économiser les ressources naturelles.
