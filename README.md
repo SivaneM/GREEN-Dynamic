@@ -166,12 +166,15 @@ Une fois l'ensemble de ces fonctions établies, on peut enfin coder la fonction 
 Enfin, on peut visualiser la répartition des déchets au bout d'un flux composé de n tours, dans les bonnes et mauvaises poubelles grâce aux graphiques suivant :
 
 * Le graphique qui présente le nombre total de déchets, et les graphiques correspondants à la répartition de ces mêmes déchets entre les bonnes et les mauvaises poubelles. 
-Prenons par exemple, un flux de 40 déchets sans faire passer l'éboueur. On lance donc les fonctions:
-  - <code>n_flux(n,k)</code> avec n = 40 et k > 40 pour ne pas faire passer l'éboueur.
-  On a donc <code>n_flux(40,44)</code> qui met à jour les différents dictionnaires et on obtient les histogrammes suivant :
+Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On lance donc les fonctions:
+  - <code>n_flux(n,k)</code> avec n = 140 et k > 140 pour ne pas faire passer l'éboueur.
+  On a donc <code>n_flux(140,144)</code> qui met à jour les différents dictionnaires et on obtient les histogrammes suivant :
  
  <img width = "900" height = "200" src = "https://image.noelshack.com/fichiers/2019/16/1/1555321552-capture-d-ecran-2019-04-15-a-11-45-38.png">
  
+ - la fonction <code>dic_final("plastique")</code>, qui affiche les taux de déchets bien placés ou non dans la poubelle de plastique, par exemple et qui donne :
+
+ <img width = "900" height = "200" src = " https://image.noelshack.com/fichiers/2019/16/1/1555322446-unknown.png"> 
 
 <a name ="tl"></a>
 * ## _**Optimisation**_
