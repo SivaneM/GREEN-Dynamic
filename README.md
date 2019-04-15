@@ -72,8 +72,7 @@ Ainsi, ce modèle consiste à utiliser uniquement deux sortes de poubelles : une
         <span style="color:green">if</span> n >= q["MauvaisePoubelle"]:
             return <span style="color:red">"BonnePoubelle"</span>
         <span style="color:green">else</span>: 
-            return <span style="color:red">"MauvaisePoubelle"</span>
-      
+            return <span style="color:red">"MauvaisePoubelle"</span>      
 </code></pre>
 
 Ainsi, en utilisant le résultat de cette dernière fonction qui à chaque déchet, attribue une destination, nous avons pu coder une autre fonction, <code>nb_dans_poubelle(p,q)</code>, qui présente le nombre de déchet dans chaque poubelle pour 100 déchets. C'est ce qui nous a permis d'écrire la fonction <code>nfoispoubelle(p,q,n)</code> qui, selon un nombre n de tours choisi par l'utilisateur, permet de visualiser le nombre de déchet par tour obtenu grâce à la fonction précédente. Enfin, nous avons programmé un graphique, par la fonction <code>plot_poubelle(M,n)</code> qui, en somme de cette suite de fonctions, permet de se rendre compte de la constance du nombre de déchets par poubelle, bonne et mauvaise, et ce, dû au dictionnaire de probabilités de répartition q, initialisé plus tôt. 
@@ -114,8 +113,7 @@ Ainsi, par exemple, la fonction <code>def_taille_poubelle(df)</code>, instaure u
     <span style="color:green">for</span> d <span style="color:green">in</span> df:
         var <span style="color:purple">=</span> random.randint(100,400)
         df[d]<span style="color:purple">=</span>var
-    return <span style="color:red">d</span>
-    
+    return <span style="color:red">d</span>    
 </code></pre>
 
 
