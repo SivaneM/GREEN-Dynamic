@@ -188,7 +188,7 @@ Ainsi, grâce à une étude approfondie et organisée sur le recyclage, nous avo
 
 Nous initialisons à zéro un dictionnaire pour la taille, en centimètre, de chaque de poubelle puis nous tirons aléatoirement une taille de poubelle. On obtient par exemple le dictionnaire suivant :
 
- <img width = "300" height = "300" src = "https://image.noelshack.com/fichiers/2019/15/7/1555251406-capture-d-ecran-2019-04-14-a-16-15-03.png"> 
+ <img width = "500" height = "220" src = "https://image.noelshack.com/fichiers/2019/15/7/1555251406-capture-d-ecran-2019-04-14-a-16-15-03.png"> 
 
 
 Tout au long de notre projet, nous avons suivis le principe suivant : l'éboueur ne ramasse la poubelle que si elle est remplie à plus de 90%. Ceci étant nous pouvons à présent modéliser notre optimisation.
@@ -217,6 +217,7 @@ La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire
 
 </code></pre>
 
+Ainsi, tels sont les résultats que l'on obtient suite au lancement de notre programme, résultats que nous pouvons encore une fois affiner grâce à une optimisation.
 
 <a name="lol"></a>
 * ## _**Interprétation**_
