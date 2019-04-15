@@ -180,6 +180,28 @@ Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On la
 <a name ="tl"></a>
 * ## _**Optimisation**_
 
+Le tri sélectif est aujourd’hui un enjeu majeur dans notre société et de plus en plus de pays considèrent primordial la protection de notre environnement. Dans cette optique, nous avons réussi à modéliser ce qui pourrait avoir un impact sur ce phénomène. 
+
+En effet, nous avons pu constater qu’il est fondamental de trier correctement ses déchets. Lorsque nous jetons nos déchets dans une poubelle, cela influence sur le prochain qui viendra. D’un autre côté, si chacun trier correctement ses déchets cela aurait un impact conséquent dans notre environnement. 
+
+Afin de répondre à des problèmes réels sur l’écologie, il est nécessaire de s’améliorer quotidiennement à ce niveau et c’est sur ce principe que nous avons constituer la dernière partie de notre blog. 
+
+Comme vous avez pu constater dans les parties précédentes, il est essentiel de bien trier ses poubelles et de ne pas jeter un déchet dans une mauvaise poubelle, chaque type de déchets a son type de poubelle. 
+
+Ainsi, grâce à une étude approfondie et organisée sur le recyclage, nous avons considérer le fait que l’on pouvait, à partir de probabilités et sur un modèle informatique précis, modéliser le moment le plus opportun au ramassage des poubelles par les éboueurs. 
+
+Nous initialisons à zéro un dictionnaire pour la taille, en centimètre, de chaque de poubelle puis nous tirons aléatoirement une taille de poubelle. On obtient par exemple le dictionnaire suivant :
+
+Tout au long de notre projet, nous avons suivis le principe suivant : l'éboueur ne ramasse la poubelle que si elle est remplie à plus de 90%. Ceci étant nous pouvons à présent modéliser notre optimisation.
+
+La fonction suivante permet de choisir de façon aléatoire un déchet et de le placer dans une des sept poubelles :
+
+
+Si l'on répéte ce phénomène plusieurs fois, on se retrouve avec toutes nos poubelles remplies, certaines plus que d'autres. 
+
+
+
+
 <a name="lol"></a>
 * ## _**Interprétation**_
 
