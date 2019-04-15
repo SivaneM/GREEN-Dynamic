@@ -176,6 +176,7 @@ Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On la
 
  <img width = "900" height = "300" src = "https://image.noelshack.com/fichiers/2019/16/1/1555323096-capture-d-ecran-2019-04-15-a-12-11-12.png"> 
 
+Ainsi, tels sont les résultats que l'on obtient suite au lancement de notre programme, résultats que nous pouvons encore une fois affiner grâce à une optimisation.
 
 <a name ="tl"></a>
 * ## _**Optimisation**_
@@ -217,7 +218,7 @@ La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire
 
 </code></pre>
 
-Ainsi, tels sont les résultats que l'on obtient suite au lancement de notre programme, résultats que nous pouvons encore une fois affiner grâce à une optimisation.
+
 
 <a name="lol"></a>
 * ## _**Interprétation**_
