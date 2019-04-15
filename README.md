@@ -174,7 +174,7 @@ Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On la
  
  - la fonction <code>dic_final("plastique")</code>, qui affiche les taux de déchets bien placés ou non dans la poubelle de plastique, par exemple et qui donne :
 <p align ="center">
- <img width = "300" height = "300" src = " https://image.noelshack.com/fichiers/2019/16/1/1555322446-unknown.png"> 
+ <img width = "300" height = "300" src = "https://image.noelshack.com/fichiers/2019/16/1/1555323096-capture-d-ecran-2019-04-15-a-12-11-12.png"> 
 </p>
 <a name ="tl"></a>
 * ## _**Optimisation**_
