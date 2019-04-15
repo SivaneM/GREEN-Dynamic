@@ -170,7 +170,7 @@ Prenons par exemple, un flux de 40 déchets sans faire passer l'éboueur. On lan
   - <code>n_flux(n,k)</code> avec n = 40 et k > 40 pour ne pas faire passer l'éboueur.
   On a donc <code>n_flux(40,44)</code> qui met à jour les différents dictionnaires et on obtient les histogrammes suivant :
  
- <img width = "550" height = "200" src = "https://image.noelshack.com/fichiers/2019/16/1/1555321552-capture-d-ecran-2019-04-15-a-11-45-38.png">
+ <img width = "900" height = "200" src = "https://image.noelshack.com/fichiers/2019/16/1/1555321552-capture-d-ecran-2019-04-15-a-11-45-38.png">
  
 
 <a name ="tl"></a>
