@@ -180,26 +180,42 @@ Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On la
 <a name ="tl"></a>
 * ## _**Optimisation**_
 
-Le tri sélectif est aujourd’hui un enjeu majeur dans notre société et de plus en plus de pays considèrent primordial la protection de notre environnement. Dans cette optique, nous avons réussi à modéliser ce qui pourrait avoir un impact sur ce phénomène. 
-
-En effet, nous avons pu constater qu’il est fondamental de trier correctement ses déchets. Lorsque nous jetons nos déchets dans une poubelle, cela influence sur le prochain qui viendra. D’un autre côté, si chacun trier correctement ses déchets cela aurait un impact conséquent dans notre environnement. 
-
+Le tri sélectif est aujourd’hui un enjeu majeur dans notre société et de plus en plus de pays considèrent primordial la protection de notre environnement. Dans cette optique, nous avons réussi à modéliser ce qui pourrait avoir un impact sur ce phénomène. En effet, nous avons pu constater qu’il est fondamental de trier correctement ses déchets. Lorsque nous jetons nos déchets dans une poubelle, cela influence sur le prochain déchet jeté. D’un autre côté, si chacun triait correctement ses déchets, cela aurait un impact conséquent sur notre environnement. 
 Afin de répondre à des problèmes réels sur l’écologie, il est nécessaire de s’améliorer quotidiennement à ce niveau et c’est sur ce principe que nous avons constituer la dernière partie de notre blog. 
 
 Comme vous avez pu constater dans les parties précédentes, il est essentiel de bien trier ses poubelles et de ne pas jeter un déchet dans une mauvaise poubelle, chaque type de déchets a son type de poubelle. 
-
 Ainsi, grâce à une étude approfondie et organisée sur le recyclage, nous avons considérer le fait que l’on pouvait, à partir de probabilités et sur un modèle informatique précis, modéliser le moment le plus opportun au ramassage des poubelles par les éboueurs. 
 
 Nous initialisons à zéro un dictionnaire pour la taille, en centimètre, de chaque de poubelle puis nous tirons aléatoirement une taille de poubelle. On obtient par exemple le dictionnaire suivant :
 
+ <img width = "300" height = "300" src = hhttps://image.noelshack.com/fichiers/2019/15/7/1555251406-capture-d-ecran-2019-04-14-a-16-15-03.png"> 
+
+
 Tout au long de notre projet, nous avons suivis le principe suivant : l'éboueur ne ramasse la poubelle que si elle est remplie à plus de 90%. Ceci étant nous pouvons à présent modéliser notre optimisation.
 
-La fonction suivante permet de choisir de façon aléatoire un déchet et de le placer dans une des sept poubelles :
+La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire un déchet et de le placer dans une des sept poubelles. Si l'on répéte ce phénomène plusieurs fois, on se retrouve avec toutes nos poubelles remplies, certaines plus que d'autres. Ainsi, l'optimisation suivante lance un certain nombre de fois cete fonction même et cela constitue un flux. Grâce à ce flux, on pourra évaluer quel est le moment le plus opportun pour l'éboueur de venir vider les poubelles ou non :
 
+<pre><code>
+<span style="color:green">def</span> <span style="color:blue">optimisation_version_final(n)</span>:
+   
+   <span style="color:blue">#on part du principe que l'eboueur passe chaque entre [100] et [200] par cent.</span>
+   epsilon <span style="color:purple">=</span> 100  <span style="color:blue">#on va tester 100 , 200 , 300 ... jusqu'à [5000] cela voudrait dire qu'il passe 2 fois.</span>
+   dic_fin <span style="color:purple">=</span> <span style="color:green">dict</span>()
+   remet_dico_à_zero() <span style="color:blue">#remet tout à zéro pour pas avoir de problèmes.</span>
+   i <span style="color:purple">=</span> <span style="color:green">100</span>
+   <span style="color:green">while</span>(epsilon<span style="color:purple"><=</span> n):
+  somme_eboueur <span style="color:purple">=</span> <span style="color:green"> 0</span>   <span style="color:blue"># on cherche à évaluer l'efficacité de l'eboueur</span>
+     n_flux(10000,epsilon)<span style="color:blue">0#on décide de faire  tourner 10.000 fois pour notre relevé statistique.</span>
+  <span style="color:green">for</span> d <span style="color:green">in</span> dict_eboueur:
+  somme_eboueur <span style="color:purple">+=</span> dict_eboueur[d]
+     dic_fin[i]=somme_eboueur <span style="color:blue"># Nombre de déchet que l'eboueur à jeter.</span>
+     i <span style="color:purple">+=</span> 100
+     epsilon <span style="color:purple">+=</span> 100
+     remet_dico_à_zero()
 
-Si l'on répéte ce phénomène plusieurs fois, on se retrouve avec toutes nos poubelles remplies, certaines plus que d'autres. 
+   <span style="color:green">return</span> dic_fin
 
-
+</code></pre>
 
 
 <a name="lol"></a>
