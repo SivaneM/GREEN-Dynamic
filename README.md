@@ -172,7 +172,7 @@ Prenons par exemple, un flux de 140 déchets sans faire passer l'éboueur. On la
  
  <img width = "900" height = "200" src = "https://image.noelshack.com/fichiers/2019/16/1/1555321552-capture-d-ecran-2019-04-15-a-11-45-38.png">
  
- - la fonction <code>dic_final("plastique")</code>, qui affiche les taux de déchets bien placés ou non dans la poubelle de plastique, par exemple et qui donne :
+ - les fonctions <code>dic_final("plastique")</code>,  <code>dic_final("plastique")</code>,  <code>dic_final("plastique")</code> qui affichent les taux de déchets bien placés ou non dans les poubelle de plastique,de verre et de papier par exemple et qui donne :
 
  <img width = "900" height = "300" src = "https://image.noelshack.com/fichiers/2019/16/1/1555323096-capture-d-ecran-2019-04-15-a-12-11-12.png"> 
 
