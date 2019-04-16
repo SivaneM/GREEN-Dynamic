@@ -229,7 +229,7 @@ To help our environment and the futur of our planet, everyone has to take upon t
 
 Through this idea, the main theme that we wanted to show what can provide a good selective sorting. We show the impact on a larger scale for the garbage men but also the influence when you choose the wrong trash. 
 
-The study we wanted to model shows that for a typical waste treatment only slightly more than half are sorted correctly. This modeling proved to be relevant compared to surveys on sorting in France.
+The study we sought to model shows that for a typical waste treatment only slightly more than half are sorted correctly. This modeling proved to be relevant compared to surveys on sorting in France.
 
 Sorting is an insignificant daily gesture that can make a big difference to global warming. Manufacturing consumes more energy than recycling, but also emits more greenhouse gases. Thus, sorting not only reduces greenhouse gas emissions, but also saves natural resources.
 
