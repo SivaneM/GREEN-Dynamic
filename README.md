@@ -194,7 +194,7 @@ Nous initialisons à zéro un dictionnaire pour la taille, en centimètre, de ch
 
 Tout au long de notre projet, nous avons suivis le principe suivant : l'éboueur ne ramasse la poubelle que si elle est remplie à plus de 90%. Ceci étant nous pouvons à présent modéliser notre optimisation.
 
-La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire un déchet et de le placer dans une des sept poubelles. Si l'on répéte ce phénomène plusieurs fois, on se retrouve avec toutes nos poubelles remplies, certaines plus que d'autres. Ainsi, l'optimisation suivante lance un certain nombre de fois cete fonction même et cela constitue un flux. Grâce à ce flux, on pourra évaluer quel est le moment le plus opportun pour l'éboueur de venir vider les poubelles ou non :
+La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire un déchet et de le placer dans une des sept poubelles. Si l'on répéte ce phénomène plusieurs fois, on se retrouve avec toutes nos poubelles remplies, certaines plus que d'autres. Ainsi, l'optimisation suivante lance un certain nombre de fois cette fonction même et cela constitue un flux. Grâce à ce flux, on pourra évaluer quel est le moment le plus opportun pour l'éboueur de venir vider les poubelles ou non :
 
 <pre><code>
 <span style="color:green">def</span> <span style="color:blue">optimisation_version_final(n)</span>:
@@ -225,13 +225,15 @@ La fonction <code>poubelle_choisie</code> permet de choisir de façon aléatoire
 
 As we explain all along this presentation, ecology is getting more and more important in our lives and its taking a prominent place. 
 
-To help our environnement and the futur of our planet, everyone has to take upon themselves and try their best in selective sorting. Inded, as we saw earlier, there are different types of waste and every waste has its own garbage ; if by mistake you throw out you trash in the wrong garbage you automatically influence the person who will come after to throw his trash. 
+To help our environment and the futur of our planet, everyone has to take upon themselves and try their best in selective sorting. Indeed, as we saw earlier, there are different types of waste and every waste has its own garbage ; if by mistake you throw out you trash in the wrong garbage you automatically influence the person who will come after to throw his trash. 
 
+Through this idea, the main theme that we wanted to show what can provide a good selective sorting. We show the impact on a larger scale for the garbage men but also the influence when you choose the wrong trash. 
 
+The study we wanted to model shows that for a typical waste treatment only slightly more than half are sorted correctly. This modeling proved to be relevant compared to surveys on sorting in France.
 
-L’étude que nous avons cherchée à modéliser montre que pour un traitement typique des déchets seulement un peu plus de la moitié sont  triés correctement. Cette modélisation s’est montrée pertinente par rapport aux enquêtes sur le tri sélectif en France.
+Sorting is an insignificant daily gesture that can make a big difference to global warming. Manufacturing consumes more energy than recycling, but also emits more greenhouse gases. Thus, sorting not only reduces greenhouse gas emissions, but also saves natural resources.
 
-Le tri sélectif est un geste anodin du quotidien qui peut apporter une grande différence à l’échelle du réchauffement climatique. Fabriquer consomme plus d’énergie que recycler, mais émet aussi plus de gaz à effet de serre. Ainsi, trier permet non seulement de réduire les émissions de gaz à effets de serres, mais permet aussi d’économiser les ressources naturelles.
+Although efforts and progress have been made regarding recycling and sorting in recent years, they are still insufficient compared to the challenges and risks to our planet.
 
-Bien que des efforts et des progrès soient apparues en ce qui concerne le recyclage et le tri sélectif depuis quelques années, ils sont encore insuffisant comparés aux enjeux et risques encourus par notre planète.
-Pour permettre aux futures générations de vivre dans un environnement propice, il est nécessaire pour chacun de commencer par faire les bons gestes au quotidien, trier.
+To enable future generations to live in a supportive environment, it is necessary for everyone to start by doing the right things on a daily basis, sorting.
+So if everyone would make a small gesture for the environment it would have a big impact on our planet. Just tried not to go wrong. 
